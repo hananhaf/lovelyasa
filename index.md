@@ -1,37 +1,74 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/hananhaf/lovelyasa/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!doctype html>
+<html lang="en">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-### Markdown
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.8.1/dist/sweetalert2.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <style>
+    .kotak {
+      margin-top: 250px;
+    }
+  </style>
+  <title>Aku Sayang Kamu Asaaa</title>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+</head>
 
-```markdown
-Syntax highlighted code block
+<body>
 
-# Header 1
-## Header 2
-### Header 3
+  <div class="row">
+    <div class="col-lg text-center kotak">
+      <button type="button" class="btn btn-lg btn-primary tombol py-4 px-5 shadow">Click Here!</button>
+      <h1 id="teks" class="d-none animate__animated animate__pulse">Aku sayang kamu <i class="fas fa-heart text-danger animate__animated animate__heartBeat animate__repeat-3"></i></h1>
+    </div>
+  </div>
 
-- Bulleted
-- List
+  <form action="" method="get">
+    <input type="hidden" name="by">
+  </form>
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+  <!-- Footer -->
+  <footer class="page-footer font-small blue fixed-bottom">
 
-[Link](url) and ![Image](src)
-```
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 text-secondary"><small> Made with
+        <i class="fas fa-heart text-danger animate__animated animate__bounce animate__repeat-3 hati"></i> by
+        <a href="https://www.instagram.com/febrianrendrars/"  class="text-decoration-none text-secondary">Bojonya Atika Rishalah</a></small>
+    </div>
+    <!-- Copyright -->
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+  </footer>
+  <!-- Footer -->
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hananhaf/lovelyasa/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  <!-- Optional JavaScript; choose one of the two! -->
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/61e5120832.js" crossorigin="anonymous"></script>
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.8.1/dist/sweetalert2.all.min.js"></script>
+
+  <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
